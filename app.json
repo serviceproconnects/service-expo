@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Service",
+    "slug": "service-expo-starter",
+    "scheme": "service",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#0B2545" },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0B2545" },
+      "package": "com.service.mobile"
+    },
+    "web": { "bundler": "metro" }
+  }
+}
