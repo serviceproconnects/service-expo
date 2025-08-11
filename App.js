@@ -4,14 +4,14 @@ import { SafeAreaView, View, Text, TextInput, ScrollView, TouchableOpacity, Swit
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, getDocs, query, orderBy } from "firebase/firestore";
 
-// ⬇️ Replace with YOUR Firebase web config (Firebase Console → Project settings → Web app)
 const firebaseConfig = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME.firebaseapp.com",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME.appspot.com",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME"
+  apiKey: "AIzaSyCjE7dKPWWXBgs453Z5i_lWpvr_Jap8h0c",
+  authDomain: "service-platform-pro.firebaseapp.com",
+  projectId: "service-platform-pro",
+  storageBucket: "service-platform-pro.firebasestorage.app",
+  messagingSenderId: "288035417062",
+  appId: "1:288035417062:web:0016e6007a3e7126258427",
+  measurementId: "G-2QJX4E8EEB"
 };
 
 const app = initializeApp(firebaseConfig);
